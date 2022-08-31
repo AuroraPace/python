@@ -1,0 +1,28 @@
+print("hello world")
+a=1 
+b=2
+#addition
+print(a+b)
+#or
+print(1+2)
+#subtraction
+print(a-b)
+#or
+print(1-2)
+#raise number to a power
+print(2**10)
+#division (you can't divide by zero)
+print(2/10)
+#or, to get a whole number
+print(2//10)
+#multiplication
+print(1*2)
+#or
+print(a*b)
+#experiment
+print("hello"*2)
+#modello, tells the remainder of a number (just the remainder, not the answer)
+#no remainder example
+print(10%2)
+#remainder example
+print(9%2)
