@@ -1,0 +1,24 @@
+#1 
+d=1234567890
+e=987654321
+f=67890
+print(d*e+f)
+#2 
+#skip
+#3
+print(1*2*3)
+#4
+print(31**331)
+#overflow error if you try and solve the rest 
+#5 
+#it gives you an error 
+#6 
+#ZeroDivisionError: division by zero
+#7 
+h=7 
+i=8 
+print(h+i)
+#8 
+print(10%3)
+#9 
+print(2**179)
