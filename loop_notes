@@ -1,0 +1,9 @@
+print("hi")
+pin=int(input("""please enter your 4 digit pin:
+"""))
+while pin !=1910:
+ pin=int(input("""wrong pin please try again:
+"""))
+
+if pin ==1910:
+  print("thank you; you may proceed")
