@@ -1,0 +1,22 @@
+import random
+question=input("what is your question? ")
+num=random.randint(1,9)
+if num ==1:
+  print("yes-definitely")
+
+if num ==2:
+  print("it is decidedly so")
+if num ==3:
+  print('without a doubt')
+if num ==4:
+  print('reply hazy try again')
+if num==5:
+  print('ask again later')
+if num==6:
+  print('better not tell you now')
+if num ==7:
+  print("my sources say no")
+if num ==8:
+  print('outlook not so good')
+if num ==9:
+  print("very doubtful")
