@@ -1,0 +1,101 @@
+interesting=0
+cool=0
+nice=0
+okay=0
+sad=0
+q1=int(input("""What do you do on a normal day?
+1. sleep
+2. exercise
+3. play games
+4. stare at the ceiling or out the window
+5. talk to friends
+
+answer:"""))
+if q1 ==1:
+  okay=+1
+  sad=+1
+elif q1 ==2:
+  cool=+1
+  interesting=+1
+  nice=+1
+elif q1==3:
+  okay=+1
+  nice=+1
+  interesting=+1
+elif q1==4:
+  sad=+1
+elif q1==5:
+  cool=+1
+  nice=+1
+else:
+  print("please run again")
+q2=int(input("""What is your favorite subject in school?
+1. Science
+2. Math
+3. History
+4. Literature
+5. Other
+
+answer: """))
+if q2==1:
+  interesting=+1
+  nice=+1
+  cool=+1
+elif q2==2:
+  okay=+1
+  nice=+1
+elif q2==3:
+  sad=+1
+  okay=+1
+  interesting=+1
+elif q2==4:
+  sad=+1
+  cool=+1
+elif q2==5:
+  interesting=+1
+  cool=+1
+  okay=+1
+  nice=+1
+  sad=+1
+else:
+  print ("please try again")
+q3=int(input("""What type of friends do you hang out with?
+1. quiet people
+2. loud people
+3. kind of both
+4. popular people
+5. the girl group
+
+answer:"""))
+if q3==1:
+  interesting=+1
+  nice=+1
+  sad=+1
+elif q3==2:
+  cool=+1
+  nice=+1
+  okay=+1
+elif q3==3:
+  interesting=+1
+  okay=+1
+  cool=+1
+elif q3==4:
+  cool=+1
+  sad=+1
+  okay=+1
+elif q3==5:
+  cool=+1
+  interesting=+1
+  sad=+1
+else:
+  print('please try again')
+if cool>=interesting and cool>=nice and cool>=okay and cool>=sad and cool:
+  print("you seem to have a pretty cool life")
+elif interesting>=cool and interesting>=nice and interesting>=okay and interesting>=sad and interesting:
+  print("your life sounds pretty interesting")
+elif nice>=interesting and nice>=cool and nice>=okay and nice>=sad and interesting:
+  print("you seem pretty nice")
+elif okay>=nice and okay>=interesting and okay>=cool and okay>=sad and okay:
+  print('you sound okay')
+else:
+  print('are you okay?')
