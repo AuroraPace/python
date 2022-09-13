@@ -1,0 +1,7 @@
+import random
+grade=random.randint(0,100)
+print('grade')
+if grade>54:
+  print('you passed')
+if grade<54:
+  print('you failed :(')
