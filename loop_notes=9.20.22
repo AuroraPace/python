@@ -1,0 +1,17 @@
+#while loops
+guess = 0
+tries=0
+
+while guess!= 6 and tries!=4:
+  guess=int(input('Guess the number: '))
+  if guess!=6:
+    tries+=1
+  if tries>3:
+    print('I am sorry, you are out of tries')
+if guess == 6 and tries !=4:
+    print('You got it!')
+    
+    
+    x="""
+I will not use Snapchat in class"""
+print(x*100)
