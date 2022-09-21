@@ -1,0 +1,9 @@
+for i in range (5):
+  print(f"The square of {i} is {i*i}")
+for b in range (99,0,-1):
+  print(f"""
+  {b} bottles of soda on the wall""")
+  print(f"{b} bottles of soda")
+  print("take one down pass it around")
+  print(f"""{b-1} bottles of soda on the wall
+  """)
