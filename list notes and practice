@@ -1,0 +1,18 @@
+#notes
+#instead of writing a ton of variables for the same thing we can use arrays/lists
+grades = [100,90,92,86,89,90]
+
+print(grades)
+
+#print line by line everything in the grades list
+for x in grades:
+  print(x)
+
+#arrays/lists can have different data types and mixed data types
+items=["h","i","j","k"]  
+list=['a','b','c',1,2,3]
+----------------------------------
+#practice
+grocery_list=["GROCERY LIST:",'-eggs 🥚','-avocado 🥑','-cookies 🍪','-hot pepper jam 🌶','-blueberries 🫐','-broccoli 🥦']
+for x in grocery_list:
+  print(x)
