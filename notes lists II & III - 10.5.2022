@@ -1,0 +1,23 @@
+#List notes II
+
+todo=['🏦 Get quarters.','🧺 Do laundry.','🌳 Take a walk.','💈 Get a haircut.','🍵 Make some tea.','💻 Complete Lists chapter.','💖 Call mom.','📺 Watch My Hero Academia.']
+print(todo[0])
+print(todo[1])
+print(todo[2:5])
+
+
+#List notes III
+
+airplane_toy=[898, 732, 543, 878]
+if (max(airplane_toy))>1000:
+  print('We are overstocking')
+if (min(airplane_toy))<1000:
+  print("We do not have enough parts")
+
+
+
+books=['Zero to One','The Lean Startup','The Mom Test','Made to Stick','Life in Code']
+books.append("Zero to Sold")
+books.pop(0)
+books.remove("The Lean Startup")
+print(books)
